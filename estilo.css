@@ -1,0 +1,39 @@
+body {
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+
+pre code {
+    background-color: #2d2d2d; /* Fundo escuro para destacar o código */
+    color: #ffffff; /* Cor do texto principal */
+    padding: 15px;
+    border-radius: 5px;
+    display: block;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Estilização específica do código CSS */
+.selector {
+    color: #ffd700; /* Amarelo para seletores */
+    font-weight: bold;
+}
+
+.property {
+    color: #87cefa; /* Azul claro para propriedades */
+}
+
+.value {
+    color: #98fb98; /* Verde claro para valores */
+}
+
+.punctuation {
+    color: #f5f5f5; /* Cor neutra para pontuação */
+}
+
+
+

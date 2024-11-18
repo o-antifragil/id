@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID's ou Identificadores</title>
+    <link rel="stylesheet" href="/CSS3/10 - ID's/estilo.css">
+</head>
+
+<body>
+    <div>
+        <h2>O que são os ID's?</h2>
+        <p>
+            No CSS, o elemento id é um seletor usado para estilizar um elemento HTML específico e único na página. Ao
+            contrário de classes (que podem ser aplicadas a múltiplos elementos), o id deve ser único por página e só
+            pode ser aplicado a um único elemento.
+        </p>
+        <h3>Características do <code>id</code>:</h3>
+        <ol>
+            <li>Símbolo <code>#</code>: No CSS, o <code>id</code> é selecionado com o símbolo <code>#</code>, seguido
+                pelo nome do <code>id</code>.
+            </li>
+            <li>Especificidade Alta: O <code>id</code> possui uma especificidade maior que as classes, portanto, regras
+                de <code>id</code> sobrescrevem regras de classe se aplicadas ao mesmo elemento.
+            </li>
+            <li>Identificação Única: É usado quando você deseja aplicar estilos ou ações JavaScript em um elemento
+                específico e único.
+            </li>
+        </ol>
+    </div>
+    
+    <h3>Exemplo de Uso</h3>
+    <div>
+        <p>No HTML:</p>
+        <pre>
+            <code>
+&lt;<span class="tag">div</span> <span class="attribute">id</span><span class="punctuation">=</span><span class="value">"principal"</span>&gt;
+    Conteúdo Principal
+&lt;/<span class="tag">div</span>&gt;
+            </code>            
+        </pre>
+    </div>
+    
+    <div>
+        <p>No CSS:</p>
+        <pre>
+            <code>
+<span class="selector">#principal</span><span class="punctuation">{</span>
+    <span class="property">background-color</span><span class="punctuation">:</span> <span class="value">lightblue</span><span class="punctuation">;</span>
+    <span class="property">padding</span><span class="punctuation">:</span> <span class="value">20px</span><span class="punctuation">;</span>
+<span class="punctuation">}</span>
+            </code>
+        </pre>
+    </div>
+    
+    <div>
+        <h3>Boas Práticas</h3>
+        <ul>
+            <li>Use o <code>id</code> somente quando realmente precisar estilizar um único elemento.</li>
+            <li>Prefira classes (<code>class</code>) para estilos que possam ser aplicados a vários elementos.</li>
+        </ul>
+        <p>
+            O uso de <code>id</code> ajuda a identificar e estilizar elementos únicos na página com precisão e
+            especificidade.
+        </p>
+    </div>
+</body>
+
+</html>
